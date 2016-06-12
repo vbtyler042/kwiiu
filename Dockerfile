@@ -1,6 +1,6 @@
 FROM ubuntu:15.10
 
-MAINTAINER VbTyle042 <vbtyler042@gmail.com>
+MAINTAINER VbTyler042 <vbtyler042@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
