@@ -4,6 +4,8 @@
 
 kwiiu is a HaxServer alternative written on PHP
 
+I merged the works HaxServer and wiiuhax to create this container
+
 ## How to use this image
 
 ### Binaries list
