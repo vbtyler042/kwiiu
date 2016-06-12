@@ -17,7 +17,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu wily main universe" > /etc/apt/so
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/*
 
-ADD asset/* /opt/default
+ADD asset/* /opt/
 
 RUN sed -i '/daemonize /c \daemonize = no' /etc/php5/fpm/php-fpm.conf && \
     sed -i '/;cgi.fix_pathinfo/c \cgi.fix_pathinfo=0' /etc/php5/fpm/php.ini && \
