@@ -29,7 +29,7 @@ docker run --name kwiiu -p 80:80 -d vbtyler042/kwiiu:latest
 
 ### On your WiiU
 
-http://\<DOCKER_SERVER_IP\>/kwiiu.php?bin=\<BINARIE_NAME\>
+http://\<DOCKER_SERVER_IP\>/kwiiu.php?bin=\<BINARY_NAME\>
 
 ### Example
 
